@@ -34,11 +34,11 @@ export default function Home() {
 
       <Container maxWidth="md" sx={{ py: 5, borderTop: '1px solid', borderColor: 'divider' }}>
         <Typography variant="h2" sx={{ fontSize: '1.6rem', mb: 3 }}>
-          About us
+          Bemutatkozás
         </Typography>
         <Typography color="text.secondary" sx={{ maxWidth: '62ch', mb: 1.5 }}>
           <Box component="strong" sx={{ color: 'text.primary', fontWeight: 600 }}>
-            Győri Benjámin és Győri Andrea
+            [Ide kerül mindkettőtök neve]
           </Box>{' '}
           vagyunk, és [ide kerül röviden, hogy kik vagytok együtt — honnan jöttök, mivel foglalkoztok,
           mi jellemez titeket párként].
@@ -48,7 +48,7 @@ export default function Home() {
           az oldal szól.]
         </Typography>
 
-        <PersonTabs labels={['Győri Benjámin', 'Győri Andrea']}>
+        <PersonTabs labels={['[Férj neve]', '[Feleség neve]']}>
           {[
             <Typography color="text.secondary" key="ferj">
               [Ide kerül a férj rövid, személyes bemutatkozása — kicsoda, mivel foglalkozik, mi

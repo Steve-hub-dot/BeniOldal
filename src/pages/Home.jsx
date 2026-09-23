@@ -26,7 +26,7 @@ export default function Home() {
             </Typography>
             <Typography color="text.secondary" sx={{ maxWidth: '52ch', fontSize: '1.08rem' }}>
               Ez az oldal a történetünkről, a szolgálatunkról és arról szól, hogyan tarthatod velünk
-              a kapcsolatot — vagy hogyan állhatsz mellénk imában és adományban.
+              a kapcsolatot - vagy hogyan állhatsz mellénk imában és adományban.
             </Typography>
           </Box>
         </Box>
@@ -38,25 +38,22 @@ export default function Home() {
         </Typography>
         <Typography color="text.secondary" sx={{ maxWidth: '62ch', mb: 1.5 }}>
           <Box component="strong" sx={{ color: 'text.primary', fontWeight: 600 }}>
-            [Ide kerül mindkettőtök neve]
+            Beni és Andi
           </Box>{' '}
-          vagyunk, és [ide kerül röviden, hogy kik vagytok együtt — honnan jöttök, mivel foglalkoztok,
+          vagyunk, és [ide kerül röviden, hogy kik vagytok együtt - honnan jöttök, mivel foglalkoztok,
           mi jellemez titeket párként].
         </Typography>
         <Typography color="text.secondary" sx={{ maxWidth: '62ch', mb: 5 }}>
-          [Itt folytathatod: hogyan találkoztatok, család, háttér, hogyan indult el mindaz, amiről ez
-          az oldal szól.]
+          [Itt folytathatod: hogyan találkoztatok, család, háttér, elhívás, stb]
         </Typography>
 
-        <PersonTabs labels={['[Férj neve]', '[Feleség neve]']}>
+        <PersonTabs labels={['Beni', 'Andi']}>
           {[
             <Typography color="text.secondary" key="ferj">
-              [Ide kerül a férj rövid, személyes bemutatkozása — kicsoda, mivel foglalkozik, mi
-              jellemzi őt egyénileg.]
+              [Bemutatkozás]
             </Typography>,
             <Typography color="text.secondary" key="feleseg">
-              [Ide kerül a feleség rövid, személyes bemutatkozása — kicsoda, mivel foglalkozik, mi
-              jellemzi őt egyénileg.]
+              [Bemutatkozás]
             </Typography>,
           ]}
         </PersonTabs>

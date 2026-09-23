@@ -16,7 +16,7 @@ function Testimony({ paragraphs }) {
 const beniTestimony = [
   "Hi my name is Benjamin Gyori! I'd like to share my story of how I became a believer and how God called me in to ministry.",
   "I was born in a Christian family in Hungary, in Europe. My dad is a pastor and my mom is a preschool teacher." + 
-  "rowing up in a believing family meant that I have been hearing and learning about Jesus and all the stories in the Bible," + 
+  "Growing up in a believing family meant that I have been hearing and learning about Jesus and all the stories in the Bible," + 
   " that talk about who God is.",
   "When I was almost 3 years old, we moved to the US, to California for 4 years. My dad was studying to receive a"+ 
   " Masters degree in theological leadership. I learned to speak English there and even though I didn't know it yet, that laid" + 

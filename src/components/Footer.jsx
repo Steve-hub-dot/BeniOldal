@@ -5,7 +5,7 @@ export default function Footer() {
     <Box component="footer" sx={{ borderTop: '1px solid', borderColor: 'divider', py: 5, textAlign: 'center' }}>
       <Container maxWidth="md">
         <Typography variant="body2" color="text.secondary">
-          © [évszám] · [Név] · Készült szeretettel
+          © 2026 · Karsai István
         </Typography>
       </Container>
     </Box>

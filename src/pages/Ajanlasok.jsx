@@ -14,18 +14,16 @@ const recs = [
  
 export default function Ajanlasok() {
   const {t} = useLanguage()
-  const {recs} = t
-
   return (
     <Container maxWidth="md" sx={{ py: 7 }}>
       <Typography variant="h1" sx={{ fontSize: { xs: '1.9rem', sm: '2.4rem' }, mb: 2 }}>
-        {recs.title}
+        {t.recommendations.title}
       </Typography>
       <Typography color="text.secondary" sx={{ maxWidth: '60ch', mb: 4 }}>
-        {recs.intro}
+        {t.recommendations.intro}
       </Typography>
       <Box sx={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-        {recs.items.map((r, i) => (
+        {t.recommendations.items.map((r, i) => (
           <Box
             key={i}
             sx={{

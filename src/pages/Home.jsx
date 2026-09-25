@@ -1,6 +1,7 @@
 import { Container, Box, Avatar, Typography } from '@mui/material'
 import PersonTabs from '../components/PersonTabs.jsx'
 import { useLanguage } from '../i18n/LanguageContext.jsx'
+import homePreview from '../images/home-preview.jpg'
 
 export default function Home() {
   const { t } = useLanguage()
@@ -17,8 +18,8 @@ export default function Home() {
               fontFamily: "'Fraunces', serif",
               background: 'linear-gradient(135deg, #B8763D, #5C6E52)',
             }}
+            src={homePreview}
           >
-            N
           </Avatar>
           <Box>
             <Typography sx={{ fontFamily: "'Fraunces', serif", fontStyle: 'italic', color: 'secondary.main', mb: 1 }}>

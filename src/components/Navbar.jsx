@@ -2,16 +2,17 @@ import { AppBar, Toolbar, Box, Button, Container } from '@mui/material'
 import { NavLink } from 'react-router-dom'
 import { useLanguage } from '../i18n/LanguageContext.jsx'
 
-const { lang, setLang, t } = useLanguage()
-const links = [
-  { to: '/', label: t.home },
-  { to: '/bizonysagtetel', label: t.testimony.title },
-  { to: '/misszio', label: t.mission.title },
-  { to: '/ajanlasok', label: t.recommendations },
-  { to: '/infok', label: t.info },
-]
+
 
 export default function Navbar() {
+  const { lang, setLang, t } = useLanguage()
+const links = [
+  { to: '/', label: t.nav.home },
+  { to: '/bizonysagtetel', label: t.nav.testimony },
+  { to: '/misszio', label: t.nav.mission },
+  { to: '/ajanlasok', label: t.nav.recommendations },
+  { to: '/infok', label: t.nav.info },
+]
   return (
     <AppBar
       position="sticky"

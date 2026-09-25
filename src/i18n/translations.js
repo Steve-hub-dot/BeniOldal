@@ -6,12 +6,12 @@ const beniHu = [
   'Ahogy hazafelé sétáltunk, elmondtam apámnak, hogy elfogadtam Jézust. Bementünk a házba, ő leült velem, és feltett néhány kérdést, hogy megbizonyosodjon róla, hogy valóban értem az evangéliumot. Miután látta, hogy tényleg megértettem, együtt imádkoztunk.',
   '7 évesen költöztünk vissza Magyarországra, és egészen kamaszkoromig lassan növekedtem Jézusba vetett hitemben és ismeretemben. Amikor középiskolás lettem, fellázadtam a szüleim és Isten ellen. Rossz helyeken kezdtem keresni az identitásomat, és egyre kevésbé éreztem magam szeretetre méltó embernek. 16 évesen mély depresszióba estem, ez volt életem legmélyebb pontja.',
   'Isten megszólított, igazi reményt adott, és megmutatta, hogy az identitásomnak Őbenne kell gyökereznie. Egészen új életet adott, és megmutatta, hogy engem szeretne használni az Örömhír megosztására.',
-  'Tizennégy éves korom óta önkéntesként szolgálok táborokban, és a tanév alatt a Cru-val is. Ott tanultam meg, hogyan oszthatom meg az evangéliumot, és ők tanítványoztak engem, megmutatva, hogyan tanítványozhatok másokat is. Segítettek megtalálni az elhívásomat a szolgálatra, és rajtuk keresztül tapasztalatot szerezhettem mind hazai, mind nemzetközi missziós munkában. Jártam Dél-Ázsiában, a Közel-Keleten és Kenyában.',
-  '2022 óta Isten kihívott a CRU szolgálatból, hogy a gyülekezetünkben szolgáljam Őt. Már akkor vezető voltam az ifjúsági csoportunkban, és Isten egyre több felelősséget bízott rám ott. Mindezek után a Pioneers-szel és a gyülekezetemmel együtt évente egy missziós konferenciát szerveztünk. Néhány év után meghívást kaptam, hogy csatlakozzam a helyi Pioneers csapathoz teljes állású munkatársként. Imádkoztam, és emberekkel konzultáltam arról, hogy esetleg teljes idejű szolgálatba álljak.',
+  'Tizennégy éves korom óta önkéntesként szolgálok táborokban, és a tanév alatt a Cru-  val is. Ott tanultam meg, hogyan oszthatom meg az evangéliumot, és ők tanítványoztak engem, megmutatva, hogyan tanítványozhatok másokat is. Segítettek megtalálni az elhívásomat a szolgálatra, és rajtuk keresztül tapasztalatot szerezhettem mind hazai, mind nemzetközi missziós munkában. Jártam Dél- Ázsiában, a Közel- Keleten és Kenyában.',
+  '2022 óta Isten kihívott a CRU szolgálatból, hogy a gyülekezetünkben szolgáljam Őt. Már akkor vezető voltam az ifjúsági csoportunkban, és Isten egyre több felelősséget bízott rám ott. Mindezek után a Pioneers- szel és a gyülekezetemmel együtt évente egy missziós konferenciát szerveztünk. Néhány év után meghívást kaptam, hogy csatlakozzam a helyi Pioneers csapathoz teljes állású munkatársként. Imádkoztam, és emberekkel konzultáltam arról, hogy esetleg teljes idejű szolgálatba álljak.',
   'A feleségemmel, Andival 2023 végén ismerkedtem meg a gyülekezetben. Akkor még nem volt hívő, és először a gyülekezetünk nyári táborában beszélgettünk, júliusban. Gyorsan közel kerültünk egymáshoz, majd ő egy félévre Dániába ment tanulni. Nem sokkal hazajövetele után eljegyeztük egymást, majd nem sokkal később összeházasodtunk, és megszületett gyönyörű kislányunk, Lea.',
   'Hogy még izgalmasabb legyen minden, még Andi terhessége alatt elkezdtük építeni a házunkat. Nagyon sok minden történt egyszerre, ami örömet, de sok stresszt és nehézséget is okozott. Mindez formált mindkettőnket, és próbára tette a kapcsolatunkat egymással, a családjainkkal, barátainkkal, és mindenekelőtt Istennel.',
   '2025 folyamán kevésbé voltam aktív a szolgálatban, de Isten mindezeken a tapasztalatokon keresztül készített fel az Ő munkájára. 2025 novembere óta újra a terepen vagyok, vidéki gyülekezetplántálásokat segítek, és elkezdtem szolgálni egy hajléktalanok számára tartott gyülekezetben is. Emellett néhány embert tanítványozok, és gyülekezeteket látogatok, hogy megtaláljam a következő missziós generációt, és segítsek nekik felismerni az elhívásukat.',
-  'Köszönöm, hogy elolvastad! Isten áldjon! — Benjamin',
+  'Köszönöm, hogy elolvastad! Isten áldjon! -  Benjamin',
 ]
 
 const beniEn = [
@@ -22,21 +22,21 @@ const beniEn = [
   'As we were walking in to our house, I told my dad that I have accepted Jesus. We went inside and he sat down with me and asked a few questions to make sure I understood the Gospel. After he saw that I truly understood, we prayed together.',
   'We moved back to Hungary when I was 7 and until my teenage years, I was just slowly growing in knowledge and faith in Jesus. When I got to high school, I rebelled against my parents and God. I started finding my identity in all the wrong places and felt less and less like a person worth loving. When I was 16 I went through deep depression and that was the lowest point of my life.',
   'God decided to speak to me and He gave me true hope and showed me that my identity should be in Him. He gave me a truly new life and showed me that He wants to use me to share the Good News.',
-  'Since I was 14, I have been serving as a volunteer in camps and with Cru during the school year. I learned methods to share the gospel and they also discipled me and showed me how I can disciple others. They also helped me find my calling in ministry and through them I was able to gain experience in both local and international missions. I have been in South-Asia, The Middle-East and Kenya.',
+  'Since I was 14, I have been serving as a volunteer in camps and with Cru during the school year. I learned methods to share the gospel and they also discipled me and showed me how I can disciple others. They also helped me find my calling in ministry and through them I was able to gain experience in both local and international missions. I have been in South- Asia, The Middle- East and Kenya.',
   'Since 2022 God called me out from CRU ministry to serve Him in our church. I was already a leader in our youth group and God was giving me more responsibilities there. After all that experience, I have been serving with Pioneers and my church in organizing a mission conference once a year. After a few years I was invited to join the local Pioneers team as full time staff. I prayed and consulted people about me potentially joining full time ministry.',
   'I met my wife Andi in church at the end of 2023. At the time she was not a believer and the first time we talked was in our Church summer camp, in July. We became close quickly and then she went to Denmark for a semester to study. Soon after she came back we got engaged and then not long after that, we got married and then we had our beautiful daughter, Lea come in to our lives.',
   'To make everything even more interesting we started building our house while Andi was pregnant. We had experienced a lot of things at the same time, that caused us joy and a lot of stress and hardship. It grew both of us and challenged us in our relationship with each other, with our families, friends and most importantly God.',
   "I was less active in ministry during the year of 2025, but God was preparing me for his work through all of these experiences. Since November 2025, I have been back on the field and have been helping church plants in the rural areas and I've started serving in a church for the homeless. I'm also discipling a few people and visiting churches to find the next generation of missionaries and help them find their calling.",
-  'Thank you for reading! God Bless! — Benjamin',
+  'Thank you for reading! God Bless! -  Benjamin',
 ]
 
 const andiHu = [
   'Andi vagyok. Nem keresztény, nem vallásos családban nőttem fel. A kereszténység nem volt jelen a mindennapjainkban, nem igazán gondolkodtunk a hitről. Visszatekintve azt mondanám, lelkileg közömbösek voltunk. Világi életet éltem, voltak kapcsolataim, és egyszerűen csak abban hittem, amit magam körül láttam: hogy egy nap meghalok, és a földben maradok.',
   'Ám már akkor is Isten irányította az utamat azzal, hogy bizonyos embereket hozott az életembe. Rajtuk keresztül kezdett megváltozni a keresztényekről alkotott képem. Viccesek, kedvesek, alázatosak, magukkal ragadóak és könnyen megközelíthetőek voltak, ami lassan nyitottabbá tett a hit felé. A középiskolában egy keresztény lány lett a legjobb barátnőm, és gyakran folytattunk őszinte beszélgetéseket. Azt szerettem benne, hogy mindig nyíltan beszélhettem vele, sosem sértődött meg a kérdéseimen. Meghívott egy keresztény táborba, amit nagyon élveztem. Az ott megismert hívőkön keresztül megtapasztaltam, mennyire jók és szeretetteljesek. Nagyon szerettem a reggeli dicsőítő éneklést.',
-  'A 2020-as évek elején néha elmentem katolikus misére az akkori barátommal. Szerettem odajárni, bár ez még közvetlenül nem hatott a hitemre. 3 évvel ezelőtt, a második diplomám megszerzése közben Isten egy keresztény szobatársat adott mellém a kollégiumban. Közel kerültünk egymáshoz, és több őszinte, nehéz beszélgetést folytattunk a kereszténységről és a hitről. Egy nap hallani akartam, ahogy dicsőítő énekeket énekel, ezért elmentem vele a Cornerstone gyülekezetbe. Itt ismertem meg a leendő férjemet, Benit is. Miután körülbelül egy hónapig jártam oda, 2024. január 14-én Isten elhívott a hitre.',
-  'Elég jól emlékszem arra a napra. Hálásan és békességgel a szívemben érkeztem a gyülekezetbe, és az elejétől kezdve éreztem, hogy engem szólítanak meg. Nem éreztem magam figyelmen kívül hagyottnak vagy jelentéktelennek. Az egész istentisztelet alatt éreztem, hogy Isten szól hozzám, és egész nap sírtam. Nem ilyen élményre számítottam, amikor a gyülekezetbe mentem, de úgy éreztem, mintha valami elárasztott volna. Találkoztam Istennel, és a szívem olyan hálával telt meg, amilyet még sosem tapasztaltam. Nem haboztam, egyszerűen olyan biztos voltam benne — tudtam, hogy Ő valóságos, tudtam, hogy él.',
+  'A 2020- as évek elején néha elmentem katolikus misére az akkori barátommal. Szerettem odajárni, bár ez még közvetlenül nem hatott a hitemre. 3 évvel ezelőtt, a második diplomám megszerzése közben Isten egy keresztény szobatársat adott mellém a kollégiumban. Közel kerültünk egymáshoz, és több őszinte, nehéz beszélgetést folytattunk a kereszténységről és a hitről. Egy nap hallani akartam, ahogy dicsőítő énekeket énekel, ezért elmentem vele a Cornerstone gyülekezetbe. Itt ismertem meg a leendő férjemet, Benit is. Miután körülbelül egy hónapig jártam oda, 2024. január 14- én Isten elhívott a hitre.',
+  'Elég jól emlékszem arra a napra. Hálásan és békességgel a szívemben érkeztem a gyülekezetbe, és az elejétől kezdve éreztem, hogy engem szólítanak meg. Nem éreztem magam figyelmen kívül hagyottnak vagy jelentéktelennek. Az egész istentisztelet alatt éreztem, hogy Isten szól hozzám, és egész nap sírtam. Nem ilyen élményre számítottam, amikor a gyülekezetbe mentem, de úgy éreztem, mintha valami elárasztott volna. Találkoztam Istennel, és a szívem olyan hálával telt meg, amilyet még sosem tapasztaltam. Nem haboztam, egyszerűen olyan biztos voltam benne - tudtam, hogy Ő valóságos, tudtam, hogy él.',
   "A szobatársam és a családom is elkezdte észrevenni a pozitív változásokat az életemben. Isten kegyelméből kevésbé lettem önző, sokkal türelmesebb, gondoskodóbb és empatikusabb. Elkezdte átformálni a prioritásaimat és a szokásaimat. Elkezdtem olvasni a Bibliát, már nem kerestem ugyanúgy a világi örömöket, és Isten elkezdte felfedni előttem azokat a bűnöket az életemben, amelyeket korábban nem ismertem fel.",
-  'Ugyanakkor az életem nem változott meg egyik napról a másikra. Körülbelül fél évvel később a gyülekezet nyári tábora mély hatással volt a hitemre. A tábor eseményein keresztül Isten megtanított mélyebben bízni Benne. Elkezdtem imádkozni, és átadtam Jézusnak az irányítást az életem felett. Ezen a táboron kezdtünk Benivel közelebb kerülni egymáshoz, hogy megismerjük egymást, és lássuk, elvezethet-e ez a kapcsolat végül házassághoz.',
+  'Ugyanakkor az életem nem változott meg egyik napról a másikra. Körülbelül fél évvel később a gyülekezet nyári tábora mély hatással volt a hitemre. A tábor eseményein keresztül Isten megtanított mélyebben bízni Benne. Elkezdtem imádkozni, és átadtam Jézusnak az irányítást az életem felett. Ezen a táboron kezdtünk Benivel közelebb kerülni egymáshoz, hogy megismerjük egymást, és lássuk, elvezethet- e ez a kapcsolat végül házassághoz.',
   'Ezután egy félévre Dániába mentem, ami mélyen pozitív időszak lett az Istennel járt utamon. Találtam egy helyi gyülekezetet, csatlakoztam a bibliaóráikhoz, és péntekenként utcai evangelizáláson vettünk részt. Ez idő alatt Benivel is közel maradtunk egymáshoz, ő kétszer is meglátogatott, mindkétszer egy hétre. Miután 2025 januárjában hazajöttem Magyarországra, megkérte a kezem. Nem sokkal ezután összeházasodtunk, és vártuk az első gyermekünket.',
   'Ilyen rövid idő alatt feleség és édesanya lettem, és teljesen más embernek éreztem magam, mint aki Dániában voltam. Az életem hirtelen tele lett új kihívásokkal, és a házasság megmutatta azokat a területeket, ahol Isten segítségével és imádság által még sokat kell növekednem. Elkezdtem megérteni, mit jelent „új hívőnek” lenni. Rájöttem, hogy a hitem valójában még nem volt igazán próbára téve. Persze könnyebb volt hinni, amikor az életem békés volt, bonyodalmak nélkül.',
   'Most, fiatal édesanyaként néha nehéz szavakba önteni az érzéseimet, és imában Isten elé vinni azokat. De eltökélt vagyok, hogy nem hagyom, hogy ez az új életszakasz eltávolítson az Atyával való kapcsolatomtól. Nagyon sokat jelent számomra, hogy Istent Atyámnak szólíthatom, a saját apámmal való kapcsolatom miatt. A szüleim elváltak, miután befejeztem az általános iskolát, így apafigura nélkül nőttem fel, anélkül, hogy egyáltalán hiányzott volna. Isten az én Atyám, aki szerető, megbízható, és akire az örökkévalóságon át számíthatok.',
@@ -69,32 +69,32 @@ export const translations = {
     home: {
       kicker: 'Isten kegyelméből',
       title: 'Szia, örülök, hogy itt vagy.',
-      lede: 'Ez az oldal a történetünkről, a szolgálatunkról és arról szól, hogyan tarthatod velünk a kapcsolatot — vagy hogyan állhatsz mellénk imában és adományban.',
+      lede: 'Ez az oldal a történetünkről, a szolgálatunkról és arról szól, hogyan tarthatod velünk a kapcsolatot - vagy hogyan állhatsz mellénk imában és adományban.',
       aboutTitle: 'Bemutatkozás',
       aboutShared: [
-        '[Ide kerül mindkettőtök neve] vagyunk, és [ide kerül röviden, hogy kik vagytok együtt — honnan jöttök, mivel foglalkoztok, mi jellemez titeket párként].',
-        '[Itt folytathatod: hogyan találkoztatok, család, háttér, hogyan indult el mindaz, amiről ez az oldal szól.]',
+        'Győri Benjámin és Andi vagyunk, és [ide kerülhet mondjuk a rövid bemutatkozás].',
+        '[Itt folytathatjátok]',
       ],
       tabs: ['Benjamin', 'Andi'],
       aboutBeni:
-        '[Ide kerül a férj rövid, személyes bemutatkozása — kicsoda, mivel foglalkozik, mi jellemzi őt egyénileg.]',
+        '[Ide kerül Beni bemutatkozása]',
       aboutAndi:
-        '[Ide kerül a feleség rövid, személyes bemutatkozása — kicsoda, mivel foglalkozik, mi jellemzi őt egyénileg.]',
+        '[Ide pedig Andié.]',
     },
     testimony: {
       title: 'Bizonyságtétel',
       tabs: ['Benjamin', 'Andi'],
-      beni: beniHu,
-      andi: andiHu,
+      beni: ['Bizonyságtétel magyarul'],
+      andi: ['Bizonyságtétel magyarul'],
     },
     mission: {
       title: 'Misszió',
       statement:
-        '[Egy-két mondatos küldetésnyilatkozat: mire hívott el Isten titeket, kiket szolgáltok, és mi a célotok.]',
+        'Ide kellene majd valamilyen infó a misszióról',
       points: [
-        '[Első konkrét terület vagy tevékenység, amivel a küldetéseteket élitek — pl. egy adott közösség, ország vagy szolgálati forma.]',
-        '[Második terület — pl. rendszeres alkalmak, kiutazások, tanítás, segítségnyújtás.]',
-        '[Harmadik terület, ha van — pl. hosszú távú terv vagy vízió.]',
+        '...',
+        '...',
+        '...',
       ],
     },
     recommendations: {
@@ -102,12 +102,12 @@ export const translations = {
       intro: 'Néhány szó azoktól, akik ismerik a szolgálatot vagy a munkát közelről.',
       items: [
         {
-          quote: '[Ide kerül egy ajánlás szövege — miért bízik meg valaki ebben a szolgálatban, mit tapasztalt.]',
-          who: '[Ajánló neve, beosztása vagy közössége]',
+          quote: 'Ide kerül egy ajánlás szövege - miért bízik meg valaki ebben a szolgálatban, mit tapasztalt.',
+          who: 'Ajánló neve, beosztása, közössége, stb',
         },
         {
-          quote: '[Második ajánlás szövege.]',
-          who: '[Ajánló neve, beosztása vagy közössége]',
+          quote: 'Második ajánlás szövege.',
+          who: 'Ajánló neve, beosztása, közössége, stb',
         },
       ],
     },
@@ -115,7 +115,7 @@ export const translations = {
       title: 'Infók',
       intro: 'Ha imában vagy adományban szeretnél mellénk állni, itt találod a szükséges adatokat.',
       qrTitle: 'Gyors adományozás',
-      qrText: 'Olvasd be a QR-kódot a telefonoddal a közvetlen adományozási felülethez.',
+      qrText: 'Olvasd be a QR- kódot a telefonoddal a közvetlen adományozási felülethez.',
       qrPlaceholder: 'QR kód ide kerül',
       bankTitle: 'Banki adatok',
       rows: [
@@ -140,17 +140,17 @@ export const translations = {
     home: {
       kicker: "By God's grace",
       title: "Hi, glad you're here.",
-      lede: "This page is about our story, our ministry, and how you can stay in touch with us — or stand with us in prayer and giving.",
+      lede: "This page is about our story, our ministry, and how you can stay in touch with us - or stand with us in prayer and giving.",
       aboutTitle: 'About us',
       aboutShared: [
-        "We are [insert both of your names], and [briefly describe who you are together — where you're from, what you do, what defines you as a couple].",
-        '[Continue here: how you met, family, background, how everything this page is about got started.]',
+        "We are Benjámin and Andi Győri, and [briefly describe who you are together - where you're from, what you do, what defines you as a couple].",
+        '[Continue here]',
       ],
       tabs: ['Benjamin', 'Andi'],
       aboutBeni:
-        "[Insert the husband's short, personal introduction here — who he is, what he does, what defines him individually.]",
+        "[Beni's introduction.]",
       aboutAndi:
-        "[Insert the wife's short, personal introduction here — who she is, what she does, what defines her individually.]",
+        "[Andi's introduction.]",
     },
     testimony: {
       title: 'Testimony',
@@ -161,11 +161,11 @@ export const translations = {
     mission: {
       title: 'Mission',
       statement:
-        "[A one- or two-sentence mission statement: what God has called you to, who you serve, and what your goal is.]",
+        "same",
       points: [
-        '[First concrete area or activity through which you live out your mission — e.g. a specific community, country, or form of ministry.]',
-        '[Second area — e.g. regular events, trips, teaching, outreach.]',
-        '[Third area, if any — e.g. a long-term plan or vision.]',
+        '...',
+        '...',
+        '...',
       ],
     },
     recommendations: {
@@ -173,7 +173,7 @@ export const translations = {
       intro: 'A few words from those who know the ministry or the work closely.',
       items: [
         {
-          quote: '[Insert a recommendation here — why someone trusts this ministry, what they experienced.]',
+          quote: '[Insert a recommendation here - why someone trusts this ministry, what they experienced.]',
           who: '[Name, role, or community of the person recommending]',
         },
         {

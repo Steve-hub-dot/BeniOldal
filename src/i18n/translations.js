@@ -143,7 +143,7 @@ export const translations = {
       lede: "This page is about our story, our ministry, and how you can stay in touch with us - or stand with us in prayer and giving.",
       aboutTitle: 'About us',
       aboutShared: [
-        "We are Benjámin and Andi Győri, and [briefly describe who you are together - where you're from, what you do, what defines you as a couple].",
+        "We are Benjámin and Andi Győri, etc...",
         '[Continue here]',
       ],
       tabs: ['Benjamin', 'Andi'],

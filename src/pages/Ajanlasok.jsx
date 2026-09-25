@@ -1,8 +1,9 @@
 import { Container, Typography, Box } from '@mui/material'
+import { useLanguage } from '../i18n/LanguageContext.jsx'
 
 const recs = [
   {
-    quote: '[Ide kerül egy ajánlás szövege — miért bízik meg valaki ebben a szolgálatban, mit tapasztalt.]',
+    quote: '[Ide kerül egy ajánlás szövege, miért bízik meg valaki ebben a szolgálatban, mit tapasztalt.]',
     who: '[Ajánló neve, beosztása vagy közössége]',
   },
   {
@@ -10,18 +11,21 @@ const recs = [
     who: '[Ajánló neve, beosztása vagy közössége]',
   },
 ]
-
+ 
 export default function Ajanlasok() {
+  const {t} = useLanguage()
+  const {recs} = t
+
   return (
     <Container maxWidth="md" sx={{ py: 7 }}>
       <Typography variant="h1" sx={{ fontSize: { xs: '1.9rem', sm: '2.4rem' }, mb: 2 }}>
-        Ajánlások
+        {recs.title}
       </Typography>
       <Typography color="text.secondary" sx={{ maxWidth: '60ch', mb: 4 }}>
-        Néhány szó azoktól, akik ismerik a szolgálatot vagy a munkát közelről.
+        {recs.intro}
       </Typography>
       <Box sx={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-        {recs.map((r, i) => (
+        {recs.items.map((r, i) => (
           <Box
             key={i}
             sx={{

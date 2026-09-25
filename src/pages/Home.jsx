@@ -1,7 +1,10 @@
 import { Container, Box, Avatar, Typography } from '@mui/material'
 import PersonTabs from '../components/PersonTabs.jsx'
+import { useLanguage } from '../i18n/LanguageContext.jsx'
 
 export default function Home() {
+  const { t } = useLanguage()
+  const { home } = t
   return (
     <>
       <Container maxWidth="md" sx={{ pt: { xs: 6, sm: 9 }, pb: 4 }}>
@@ -19,14 +22,13 @@ export default function Home() {
           </Avatar>
           <Box>
             <Typography sx={{ fontFamily: "'Fraunces', serif", fontStyle: 'italic', color: 'secondary.main', mb: 1 }}>
-              Isten kegyelméből
+              {home.kicker}
             </Typography>
             <Typography variant="h1" sx={{ fontSize: { xs: '2.1rem', sm: '2.9rem' }, mb: 2 }}>
-              Szia, örülök, hogy itt vagy.
+              {home.title}
             </Typography>
             <Typography color="text.secondary" sx={{ maxWidth: '52ch', fontSize: '1.08rem' }}>
-              Ez az oldal a történetünkről, a szolgálatunkról és arról szól, hogyan tarthatod velünk
-              a kapcsolatot - vagy hogyan állhatsz mellénk imában és adományban.
+              {home.lede}
             </Typography>
           </Box>
         </Box>
@@ -34,26 +36,25 @@ export default function Home() {
 
       <Container maxWidth="md" sx={{ py: 5, borderTop: '1px solid', borderColor: 'divider' }}>
         <Typography variant="h2" sx={{ fontSize: '1.6rem', mb: 3 }}>
-          Bemutatkozás
+          {home.aboutTitle}
         </Typography>
-        <Typography color="text.secondary" sx={{ maxWidth: '62ch', mb: 1.5 }}>
-          <Box component="strong" sx={{ color: 'text.primary', fontWeight: 600 }}>
-            Beni és Andi
-          </Box>{' '}
-          vagyunk, és [ide kerül röviden, hogy kik vagytok együtt - honnan jöttök, mivel foglalkoztok,
-          mi jellemez titeket párként].
-        </Typography>
-        <Typography color="text.secondary" sx={{ maxWidth: '62ch', mb: 5 }}>
-          [Itt folytathatod: hogyan találkoztatok, család, háttér, elhívás, stb]
-        </Typography>
+        {home.aboutShared.map((para, i) => (
+          <Typography
+            key={i}
+            color="text.secondary"
+            sx={{ maxWidth: '62ch', mb: i === home.aboutShared.length - 1 ? 5 : 1.5 }}
+          >
+            {para}
+          </Typography>
+        ))}
 
         <PersonTabs labels={['Beni', 'Andi']}>
           {[
             <Typography color="text.secondary" key="ferj">
-              [Bemutatkozás]
+              {home.aboutBeni}
             </Typography>,
             <Typography color="text.secondary" key="feleseg">
-              [Bemutatkozás]
+              {home.aboutAndi}
             </Typography>,
           ]}
         </PersonTabs>

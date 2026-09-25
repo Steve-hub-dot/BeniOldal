@@ -1,4 +1,5 @@
 import { Container, Typography, Box, Paper, Divider } from '@mui/material'
+import { useLanguage } from '../i18n/LanguageContext.jsx'
 
 const rows = [
   { label: 'Kedvezményezett', value: '[Név / szervezet]' },
@@ -8,13 +9,15 @@ const rows = [
 ]
 
 export default function Infok() {
+  const { t } = useLanguage()
+  const { info } = t
   return (
     <Container maxWidth="md" sx={{ py: 7 }}>
       <Typography variant="h1" sx={{ fontSize: { xs: '1.9rem', sm: '2.4rem' }, mb: 2 }}>
-        Infók
+        {info.title}
       </Typography>
       <Typography color="text.secondary" sx={{ maxWidth: '60ch', mb: 4 }}>
-        Ha imában vagy adományban szeretnél mellénk állni, itt találod a szükséges adatokat.
+        {info.intro}
       </Typography>
       <Paper
         elevation={0}
@@ -38,18 +41,18 @@ export default function Infok() {
               p: 1,
             }}
           >
-            QR kód ide kerül
+            {info.qrPlaceholder}
           </Box>
           <Box>
-            <Typography sx={{ fontWeight: 500, mb: 0.5 }}>Gyors adományozás</Typography>
+            <Typography sx={{ fontWeight: 500, mb: 0.5 }}>{info.qrTitle}</Typography>
             <Typography color="text.secondary" variant="body2">
-              Olvasd be a QR-kódot a telefonoddal a közvetlen adományozási felülethez.
+              {info.qrText}
             </Typography>
           </Box>
         </Box>
         <Divider sx={{ mb: 3 }} />
-        <Typography sx={{ fontWeight: 500, mb: 2 }}>Banki adatok</Typography>
-        {rows.map((row, i) => (
+        <Typography sx={{ fontWeight: 500, mb: 2 }}>{info.bankTitle}</Typography>
+        {info.rows.map((row, i) => (
           <Box
             key={i}
             sx={{

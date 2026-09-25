@@ -1,5 +1,6 @@
 import { Container, Typography, Box } from '@mui/material'
 import PersonTabs from '../components/PersonTabs.jsx'
+import { useLanguage } from '../i18n/LanguageContext.jsx'
 
 function Testimony({ paragraphs }) {
   return (
@@ -103,18 +104,21 @@ const andiTestimony = [
 ]
 
 export default function Bizonysagtetel() {
+  const {t} = useLanguage()
+  const {testimony} = t
+
   return (
     <Container maxWidth="md" sx={{ py: 7 }}>
       <Typography variant="h1" sx={{ fontSize: { xs: '1.9rem', sm: '2.4rem' }, mb: 4 }}>
-        Testimony
+        {testimony.title}
       </Typography>
-      <PersonTabs labels={['Beni', 'Andi']}>
+      <PersonTabs labels={testimony.tabs}>
         {[
-          <Testimony key="ferj" paragraphs={beniTestimony} />,
+          <Testimony key="ferj" paragraphs={testimony.beni} />,
 
           <Testimony
             key="feleseg"
-            paragraphs={andiTestimony}
+            paragraphs={testimony.andi}
           />,
         ]}
       </PersonTabs>

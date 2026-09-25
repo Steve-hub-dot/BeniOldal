@@ -1,12 +1,14 @@
 import { AppBar, Toolbar, Box, Button, Container } from '@mui/material'
 import { NavLink } from 'react-router-dom'
+import { useLanguage } from '../i18n/LanguageContext.jsx'
 
+const { lang, setLang, t } = useLanguage()
 const links = [
-  { to: '/', label: 'Főoldal' },
-  { to: '/bizonysagtetel', label: 'Bizonyságtétel' },
-  { to: '/misszio', label: 'Misszió' },
-  { to: '/ajanlasok', label: 'Ajánlások' },
-  { to: '/infok', label: 'Infók' },
+  { to: '/', label: t.home },
+  { to: '/bizonysagtetel', label: t.testimony.title },
+  { to: '/misszio', label: t.mission.title },
+  { to: '/ajanlasok', label: t.recommendations },
+  { to: '/infok', label: t.info },
 ]
 
 export default function Navbar() {
@@ -25,7 +27,7 @@ export default function Navbar() {
       <Container maxWidth="md">
         <Toolbar disableGutters sx={{ justifyContent: 'space-between', flexWrap: 'wrap', py: 1 }}>
           <Box sx={{ fontFamily: "'Fraunces', serif", fontStyle: 'italic', fontSize: '1.15rem' }}>
-            Név
+            {t.nav.brand}
           </Box>
           <Box sx={{ display: 'flex', gap: 0.5, overflowX: 'auto' }}>
             {links.map((l) => (
@@ -47,6 +49,32 @@ export default function Navbar() {
                 {l.label}
               </Button>
             ))}
+            <Box sx={{ display: 'flex', gap: 0.25, ml: 1, borderLeft: '1px solid', borderColor: 'divider', pl: 1 }}>
+              <Button
+                size="small"
+                onClick={() => setLang('hu')}
+                sx={{
+                  minWidth: 34,
+                  fontSize: '0.8rem',
+                  color: lang === 'hu' ? 'text.primary' : 'text.secondary',
+                  fontWeight: lang === 'hu' ? 700 : 400,
+                }}
+              >
+                HU
+              </Button>
+              <Button
+                size="small"
+                onClick={() => setLang('en')}
+                sx={{
+                  minWidth: 34,
+                  fontSize: '0.8rem',
+                  color: lang === 'en' ? 'text.primary' : 'text.secondary',
+                  fontWeight: lang === 'en' ? 700 : 400,
+                }}
+              >
+                EN
+              </Button>
+            </Box>
           </Box>
         </Toolbar>
       </Container>
